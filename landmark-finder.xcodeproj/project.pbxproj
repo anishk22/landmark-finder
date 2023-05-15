@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6875FE4B2A12FA0600423FDF /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6875FE4A2A12FA0600423FDF /* LocationMapAnnotationView.swift */; };
 		68D4F2B82A12B1EC007E89A6 /* landmark_finderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4F2B72A12B1EC007E89A6 /* landmark_finderApp.swift */; };
 		68D4F2BA2A12B1EC007E89A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4F2B92A12B1EC007E89A6 /* ContentView.swift */; };
 		68D4F2BC2A12B1ED007E89A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D4F2BB2A12B1ED007E89A6 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6875FE4A2A12FA0600423FDF /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		68D4F2B42A12B1EC007E89A6 /* landmark-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "landmark-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D4F2B72A12B1EC007E89A6 /* landmark_finderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmark_finderApp.swift; sourceTree = "<group>"; };
 		68D4F2B92A12B1EC007E89A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				68D4F2CF2A12B9FF007E89A6 /* LocationsView.swift */,
 				68D4F2D32A12C790007E89A6 /* LocationsListView.swift */,
 				68D4F2D52A12E203007E89A6 /* LocationPreviewView.swift */,
+				6875FE4A2A12FA0600423FDF /* LocationMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68D4F2BA2A12B1EC007E89A6 /* ContentView.swift in Sources */,
+				6875FE4B2A12FA0600423FDF /* LocationMapAnnotationView.swift in Sources */,
 				68D4F2D42A12C790007E89A6 /* LocationsListView.swift in Sources */,
 				68D4F2D62A12E203007E89A6 /* LocationPreviewView.swift in Sources */,
 				68D4F2D22A12BD8A007E89A6 /* LocationsViewModel.swift in Sources */,
