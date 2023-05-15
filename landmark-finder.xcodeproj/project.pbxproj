@@ -15,6 +15,7 @@
 		68D4F2CD2A12B538007E89A6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4F2CC2A12B538007E89A6 /* Location.swift */; };
 		68D4F2D02A12B9FF007E89A6 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4F2CF2A12B9FF007E89A6 /* LocationsView.swift */; };
 		68D4F2D22A12BD8A007E89A6 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4F2D12A12BD8A007E89A6 /* LocationsViewModel.swift */; };
+		68D4F2D42A12C790007E89A6 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4F2D32A12C790007E89A6 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		68D4F2CC2A12B538007E89A6 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		68D4F2CF2A12B9FF007E89A6 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		68D4F2D12A12BD8A007E89A6 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		68D4F2D32A12C790007E89A6 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				68D4F2CF2A12B9FF007E89A6 /* LocationsView.swift */,
+				68D4F2D32A12C790007E89A6 /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68D4F2BA2A12B1EC007E89A6 /* ContentView.swift in Sources */,
+				68D4F2D42A12C790007E89A6 /* LocationsListView.swift in Sources */,
 				68D4F2D22A12BD8A007E89A6 /* LocationsViewModel.swift in Sources */,
 				68D4F2B82A12B1EC007E89A6 /* landmark_finderApp.swift in Sources */,
 				68D4F2D02A12B9FF007E89A6 /* LocationsView.swift in Sources */,
