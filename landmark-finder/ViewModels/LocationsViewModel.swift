@@ -28,6 +28,9 @@ class LocationsViewModel: ObservableObject {
     // Show list of locations
     @Published var showLocationsList: Bool = false
     
+    // Current location moved forwards
+    @Published var locationMovedForward: Bool = true
+    
     init() {
         let locations = LocationsDataService.locations
         self.locations = locations
@@ -50,7 +53,25 @@ class LocationsViewModel: ObservableObject {
         }
     }
     
+    func setLocationMovement(nextLocation: Location) {
+        // Get the current index
+        guard let currentIndex = locations.firstIndex(where: { $0 == mapLocation }) else {
+            print("Could not find current index in locations array")
+            return
+        }
+        
+        // Get the next index
+        guard let nextIndex = locations.firstIndex(where: { $0 == nextLocation }) else {
+            print("Could not find next index in locations array")
+            return
+        }
+        
+        locationMovedForward = currentIndex < nextIndex ? true : false
+    }
+    
     func showNextLocation(location: Location) {
+        setLocationMovement(nextLocation: location)
+        
         withAnimation(.easeInOut) {
             mapLocation = location
             showLocationsList = false
