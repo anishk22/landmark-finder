@@ -24,6 +24,7 @@
 /* Begin PBXFileReference section */
 		6875FE4A2A12FA0600423FDF /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		6875FE4C2A13072000423FDF /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
+		6875FE4E2A1311BB00423FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		68D4F2B42A12B1EC007E89A6 /* landmark-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "landmark-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D4F2B72A12B1EC007E89A6 /* landmark_finderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmark_finderApp.swift; sourceTree = "<group>"; };
 		68D4F2B92A12B1EC007E89A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		68D4F2B62A12B1EC007E89A6 /* landmark-finder */ = {
 			isa = PBXGroup;
 			children = (
+				6875FE4E2A1311BB00423FDF /* Info.plist */,
 				68D4F2B72A12B1EC007E89A6 /* landmark_finderApp.swift */,
 				68D4F2B92A12B1EC007E89A6 /* ContentView.swift */,
 				68D4F2CE2A12B5F2007E89A6 /* DataServices */,
@@ -334,9 +336,10 @@
 				DEVELOPMENT_TEAM = H97QF4PGAY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "landmark-finder/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Landmark Finder";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,9 +366,10 @@
 				DEVELOPMENT_TEAM = H97QF4PGAY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "landmark-finder/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Landmark Finder";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
