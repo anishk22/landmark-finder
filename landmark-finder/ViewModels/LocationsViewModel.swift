@@ -104,4 +104,41 @@ class LocationsViewModel: ObservableObject {
         let nextLocation = locations[nextIndex]
         showNextLocation(location: nextLocation)
     }
+    
+    func moveLocationBackwards() {
+        // Get the current index
+        guard let currentIndex = locations.firstIndex(where: { $0 == mapLocation }) else {
+            print("Could not find current index in locations array")
+            return
+        }
+        
+        // Check if previous index is valid
+        let prevIndex = currentIndex - 1
+        guard locations.indices.contains(prevIndex) else {
+            return
+        }
+        
+        // Previous index is valid
+        let prevLocation = locations[prevIndex]
+        showNextLocation(location: prevLocation)
+    }
+    
+    func moveLocationForwards() {
+        // Get the current index
+        guard let currentIndex = locations.firstIndex(where: { $0 == mapLocation }) else {
+            print("Could not find current index in locations array")
+            return
+        }
+        
+        // Check if next index is valid
+        let nextIndex = currentIndex + 1
+        guard locations.indices.contains(nextIndex) else {
+            return
+        }
+        
+        // Previous index is valid
+        let nextLocation = locations[nextIndex]
+        showNextLocation(location: nextLocation)
+    }
+    
 }

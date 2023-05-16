@@ -98,6 +98,11 @@ extension LocationsView {
                             insertion: vm.locationMovedForward ? .move(edge: .trailing) : .move(edge: .leading),
                             removal: vm.locationMovedForward ? .move(edge: .leading) : .move(edge: .trailing)
                         ))
+                        .gesture(DragGesture(minimumDistance: 20, coordinateSpace: .global)
+                            .onEnded { value in
+                                let horizontalAmount = value.translation.width
+                                horizontalAmount < 0 ? vm.moveLocationForwards() : vm.moveLocationBackwards()
+                            })
                 }
             }
         }
