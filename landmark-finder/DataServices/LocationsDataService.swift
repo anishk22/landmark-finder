@@ -12,6 +12,93 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
+                name: "Taj Mahal",
+                cityName: "Agra",
+                coordinates: CLLocationCoordinate2D(latitude: 27.1750, longitude: 78.0422),
+                description: "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favorite wife, Mumtaz Mahal. The Taj Mahal is widely recognized as the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage.",
+                imageNames: [
+                    "agra-tajmahal-1",
+                    "agra-tajmahal-2",
+                    "agra-tajmahal-3",
+                ],
+                link: "https://en.wikipedia.org/wiki/Taj_Mahal"),
+        Location(
+                name: "Golden Temple",
+                cityName: "Amritsar",
+                coordinates: CLLocationCoordinate2D(latitude: 31.6200, longitude: 74.8765),
+                description: "The Harmandir Sahib, also known as Darbar Sahib or Golden Temple, is a Gurdwara located in the city of Amritsar, Punjab, India. It is considered the holiest Gurdwara and the most important pilgrimage site of Sikhism. The temple is surrounded by a large man-made lake, known as the Sarovar, which consists of Amrit ('holy water') and is believed by Sikhs to have healing powers.",
+                imageNames: [
+                    "amritsar-goldentemple-1",
+                    "amritsar-goldentemple-2",
+                    "amritsar-goldentemple-3",
+                ],
+                link: "https://en.wikipedia.org/wiki/Harmandir_Sahib"),
+        Location(
+            name: "Great Wall of China",
+            cityName: "Beijing",
+            coordinates: CLLocationCoordinate2D(latitude: 40.4319, longitude: 116.5704),
+            description: "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe.",
+            imageNames: [
+                "beijing-greatwall-1",
+                "beijing-greatwall-2",
+                "beijing-greatwall-3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Great_Wall_of_China"),
+        Location(
+            name: "Pyramids of Giza",
+            cityName: "Cairo",
+            coordinates: CLLocationCoordinate2D(latitude: 29.9773, longitude: 31.1325),
+            description: "The Pyramids of Giza are ancient structures located on the outskirts of Cairo, Egypt. They consist of three pyramids: the Great Pyramid of Khufu, the Pyramid of Khafre, and the Pyramid of Menkaure, along with several smaller pyramids, temples, and the Sphinx. The Great Pyramid of Khufu is the largest and oldest of the three pyramids and is one of the Seven Wonders of the Ancient World.",
+            imageNames: [
+                "cairo-giza-1",
+                "cairo-giza-2",
+                "cairo-giza-3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Pyramids_of_Giza"
+        ),
+        Location(
+            name: "Machu Picchu",
+            cityName: "Cusco",
+            coordinates: CLLocationCoordinate2D(latitude: -13.1631, longitude: -72.5450),
+            description: "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it's renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments, and panoramic views.",
+            imageNames: [
+                "cusco-machu-1",
+                "cusco-machu-2",
+                "cusco-machu-3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Machu_Picchu"),
+        Location(
+            name: "Central Park",
+            cityName: "New York City",
+            coordinates: CLLocationCoordinate2D(latitude: 40.7829, longitude: -73.9654),
+            description: "Central Park is an urban park in New York City located between the Upper West and Upper East Sides of Manhattan. It is the most visited urban park in the United States with an estimated 38 million visitors annually, and is one of the most filmed locations in the world.",
+            imageNames: [
+                "nyc-centralpark-1",
+                "nyc-centralpark-2",
+            ],
+            link: "https://en.wikipedia.org/wiki/Central_Park"),
+        Location(
+            name: "Empire State Building",
+            cityName: "New York City",
+            coordinates: CLLocationCoordinate2D(latitude: 40.7484, longitude: -73.9857),
+            description: "The Empire State Building is a skyscraper in New York City, United States. Its name is derived from the nickname for New York, the Empire State. It stood as the world's tallest building for nearly 40 years, until the completion of the World Trade Center's North Tower in Lower Manhattan in late 1970.",
+            imageNames: [
+                "nyc-empirestate-1",
+                "nyc-empirestate-2",
+            ],
+            link: "https://en.wikipedia.org/wiki/Empire_State_Building"),
+        Location(
+            name: "Statue of Liberty",
+            cityName: "New York City",
+            coordinates: CLLocationCoordinate2D(latitude: 40.6892, longitude: -74.0444),
+            description: "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor within New York City, in the United States. The statue, designed by Frédéric Auguste Bartholdi and dedicated on October 28, 1886, was a gift to the United States from the people of France.",
+            imageNames: [
+                "nyc-statue-1",
+                "nyc-statue-2",
+                "nyc-statue-3",
+            ],
+            link: "https://en.wikipedia.org/wiki/Statue_of_Liberty"),
+        Location(
             name: "Colosseum",
             cityName: "Rome",
             coordinates: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922),
@@ -64,19 +151,7 @@ class LocationsDataService {
                 "paris-louvre-2",
                 "paris-louvre-3",
             ],
-            link: "https://en.wikipedia.org/wiki/Louvre"),
-        Location(
-            name: "Great Wall of China",
-            cityName: "Beijing",
-            coordinates: CLLocationCoordinate2D(latitude: 40.4319, longitude: 116.5704),
-            description: "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe.",
-            imageNames: [
-                "beijing-greatwall-1",
-                "beijing-greatwall-2",
-                "beijing-greatwall-3",
-            ],
-            link: "https://en.wikipedia.org/wiki/Great_Wall_of_China"),
-        Location(
+            link: "https://en.wikipedia.org/wiki/Louvre"),Location(
             name: "Sydney Opera House",
             cityName: "Sydney",
             coordinates: CLLocationCoordinate2D(latitude: -33.8568, longitude: 151.2153),
@@ -87,40 +162,6 @@ class LocationsDataService {
                 "sydney-opera-3",
             ],
             link: "https://en.wikipedia.org/wiki/Sydney_Opera_House"),
-        Location(
-            name: "Machu Picchu",
-            cityName: "Cusco",
-            coordinates: CLLocationCoordinate2D(latitude: -13.1631, longitude: -72.5450),
-            description: "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it's renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments, and panoramic views.",
-            imageNames: [
-                "cusco-machu-1",
-                "cusco-machu-2",
-                "cusco-machu-3",
-            ],
-            link: "https://en.wikipedia.org/wiki/Machu_Picchu"),
-        Location(
-            name: "Statue of Liberty",
-            cityName: "New York City",
-            coordinates: CLLocationCoordinate2D(latitude: 40.6892, longitude: -74.0444),
-            description: "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor within New York City, in the United States. The statue, designed by Frédéric Auguste Bartholdi and dedicated on October 28, 1886, was a gift to the United States from the people of France.",
-            imageNames: [
-                "nyc-statue-1",
-                "nyc-statue-2",
-                "nyc-statue-3",
-            ],
-            link: "https://en.wikipedia.org/wiki/Statue_of_Liberty"),
-        Location(
-            name: "Pyramids of Giza",
-            cityName: "Cairo",
-            coordinates: CLLocationCoordinate2D(latitude: 29.9773, longitude: 31.1325),
-            description: "The Pyramids of Giza are ancient structures located on the outskirts of Cairo, Egypt. They consist of three pyramids: the Great Pyramid of Khufu, the Pyramid of Khafre, and the Pyramid of Menkaure, along with several smaller pyramids, temples, and the Sphinx. The Great Pyramid of Khufu is the largest and oldest of the three pyramids and is one of the Seven Wonders of the Ancient World.",
-            imageNames: [
-                "cairo-giza-1",
-                "cairo-giza-2",
-                "cairo-giza-3",
-            ],
-            link: "https://en.wikipedia.org/wiki/Pyramids_of_Giza"
-        ),
     ]
-    
+
 }
