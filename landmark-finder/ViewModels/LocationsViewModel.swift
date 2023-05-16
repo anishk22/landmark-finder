@@ -28,6 +28,9 @@ class LocationsViewModel: ObservableObject {
     // Show list of locations
     @Published var showLocationsList: Bool = false
     
+    // Show location details via sheet
+    @Published var sheetLocation: Location? = nil
+    
     // Current location moved forwards
     @Published var locationMovedForward: Bool = true
     
