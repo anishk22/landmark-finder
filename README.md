@@ -18,7 +18,7 @@ To view all available landmarks at once, the user can click on the top arrow and
 </p>
 
 ## Learn More
-The user can tap the learn more buttom to see specifc information including multiple different images, a brief description, and a precise  location. 
+The user can tap the learn more buttom to see specific information including multiple different images, a brief description, and a precise  location. 
 
 <p float="left">
   <img src="https://github.com/anishk22/landmark-finder/assets/92560993/bbcaff24-6055-420c-8188-bb641c3ffee8" width=30% height=30%>
